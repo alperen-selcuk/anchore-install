@@ -57,3 +57,7 @@ export ANCHORE_CLI_PASS=foobar
 ```
 
 image tarama durumunu "anchore-cli image list" diyerek taranan imagedeki açıklara bakmak için ise "anchore-cli image vuln <image:tag> all" şeklinde kullanıyoruz.
+
+!!!
+PS: anchore ilk kullanım için “anchore-cli system feeds list” diyerek mevcut vulnerability referanslarının olduğunu kontrol ediniz eğer liste komple pending durumda ise, “anchore-cli system feeds sync” komutu ile sync hale getirmeniz gerekiyor bu işlem biraz uzun sürebilir.
+!!!
