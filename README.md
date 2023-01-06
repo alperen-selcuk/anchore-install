@@ -35,7 +35,15 @@ son adım olarak anchore kullanabilmek için anchore-cli yükleyeceğiz.
 
 https://github.com/anchore/anchore-cli
 
-github üzerinden ilgili işletim sisteminize göre binary inderebilirsiniz.
+github üzerinden kurabilirsiniz ben ubuntu için aşağıdaki şekilde devam edicem
+
+```
+apt-get update
+apt-get install python3-pip
+pip3 install anchorecli
+```
+
+burda .local e atıyor path olarak eklemeniz gerekiyor. export PATH="$HOME/.local/bin/:$PATH"
 
 daha sonra 3 tane variable set edeceğiz bunlarla anchore apiye bağlanacağız.
 
