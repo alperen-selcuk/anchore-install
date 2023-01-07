@@ -57,6 +57,8 @@ export ANCHORE_CLI_PASS=foobar
 
 ## anchore engine kullanım
 
+ anchore il kullanımda vuln scan eden catalog u güncellememiz gerekiyor.  "anchore-cli system feeds sync" komutu ile.
+
  anchore-cli image add <image:tag> 
  
  şeklinde kullanılmaktadır, default olarak docker.io da aramaktadır imageleri. eğer bir private repoda bulunan imagei scan etmek istiyorsanız. registry eklemeniz gerekiyor.
